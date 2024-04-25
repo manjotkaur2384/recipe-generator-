@@ -1,0 +1,37 @@
+<!--NAME-VASU MEHTA-->
+<!--STUDENT ID-200554999-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Recipe Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img id="logo" src="f83519e2a7759bb0b2e6d492f490bfc8.jpg" alt="Logo">
+        </div>
+        <h1>Random Recipe Generator</h1>
+    </header>
+
+    <div class="container">
+        <div id="recipe-container" class="recipe-box">
+            <!-- Recipe will be displayed here -->
+            <h2>Random Recipe</h2>
+            
+            <div class="recipe-details">
+                <p><strong>Ingredients:</strong> <span id="recipe-ingredients"></span></p>
+                <p class="servings"><strong>Servings:</strong> <span id="recipe-servings"></span></p>
+                <p class="instructions"><strong>Instructions:</strong> <span id="recipe-instructions"></span></p>
+            </div>
+        </div>
+        <button id="get-recipe-btn" class="recipe-button">Get Random Recipe</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

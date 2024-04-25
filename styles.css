@@ -1,0 +1,104 @@
+/*NAME-VASU MEHTA*/
+/*STUDENT ID-200554999*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.recipe-box {
+    width: 70%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.recipe-box:hover {
+    transform: translateY(-5px);
+}
+
+.recipe-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.recipe-button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+#logo {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the logo horizontally */
+}
+
+#recipe-details {
+    margin-top: 20px;
+}
+
+#recipe-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#ingredients {
+    font-size: 18px;
+}
+
+#instructions {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+.recipe-image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.recipe-details {
+    padding: 20px;
+}
+
+p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.servings {
+    font-style: italic;
+}
+
+.instructions {
+    text-align: left;
+}
